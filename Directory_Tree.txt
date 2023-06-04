@@ -1,0 +1,28 @@
+root
+├── Original
+├── New Business
+│   └── Committee (e.g., AA, BA, CAS, Rules, SAS, SLDCO)
+│       ├── Pass
+│       │   ├── Unfinished Business
+│       │   │   ├── Pass
+│       │   │   │   ├── Signing
+│       │   │   │   │   ├── Autosign
+│       │   │   │   │   └── Upload
+│       │   │   └── Fail (Moved to Finished)
+│       │   └── Amendments (change log)
+│       ├── Table
+│       └── Fail (Moved to Finished in Failed Committee subfolder)
+├── Unfinished Business
+│   ├── Pass
+│   │   ├── Signing
+│   │   │   ├── Autosign
+│   │   │   └── Upload
+│   │   ├── Amendments (change log)
+│   ├── Table
+│   └── Fail (Moved to Finished in Failed Senate subfolder)
+├── Veto (if vetoed)
+│   ├── Vetoed
+│   │   ├── Veto Overridden (Moved to Finished with overridden stamp)
+│   │   └── Veto upheld (Moved to Failed folder)
+│   └── Amendments (change log)
+└── Finished
