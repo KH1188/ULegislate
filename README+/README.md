@@ -2,7 +2,7 @@
 
 # TODO
 1. Document Database
-  a. Instructions_db
+* Instructions_db
 2. Automated Path Editor
 3. Web design & Integration
 4. P/F Voting
