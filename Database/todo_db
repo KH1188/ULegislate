@@ -1,1 +1,22 @@
 #todo and notes document for the database
+
+1. Install SQL Server: Download and install SQL Server on your machine. You can choose the edition that suits your needs, such as SQL Server Express, SQL Server        Developer Edition, or SQL Server Standard Edition. Make sure to follow the installation instructions provided by Microsoft.
+
+2. Open SQL Server Management Studio (SSMS): Once SQL Server is installed, open SQL Server Management Studio. This is a graphical tool provided by Microsoft for 
+   managing SQL Server.
+
+3. Connect to SQL Server: In SSMS, click on the "Connect" button or go to the "File" menu and select "Connect Object Explorer". Enter the necessary information to 
+   connect to your SQL Server instance, such as the server name and authentication method.
+
+4. Create a Database: Once connected to SQL Server, right-click on "Databases" in the Object Explorer and select "New Database". Provide a name for your database and 
+   configure any other settings as needed. Click "OK" to create the database.
+
+5. Design the Database Schema: With the database created, you can now design the schema based on your requirements. This involves creating tables, defining columns 
+   and data types, establishing relationships between tables, and adding any necessary constraints. You can use SSMS's visual tools or write SQL scripts to define 
+   the schema.
+
+6. Execute SQL Scripts: If you choose to write SQL scripts, you can create a new query window in SSMS and write the SQL statements to create tables, define columns, 
+   set relationships, and add constraints. Once the script is ready, execute it in SSMS to create the necessary database objects.
+
+7. Verify the Database: After executing the SQL scripts, verify that the database objects (tables, columns, relationships) have been created successfully. You can  
+   view the structure of the database in SSMS by expanding the database in the Object Explorer and exploring the different folders (Tables, Views, etc.).
