@@ -1,7 +1,0 @@
-#Intructions for how to integrate the SQL Server to our Blazor Project
-
-1. Install Entity Framework Core: Entity Framework Core is a popular Object-Relational Mapping (ORM) framework that simplifies database interactions in Blazor. Install the required packages by running the following command in the Package Manager Console:
-    Install-Package Microsoft.EntityFrameworkCore.SqlServer
-    Install-Package Microsoft.EntityFrameworkCore.Design
-
-2. Create a Database Context Class: In your Blazor project, create a new class file called MyDbContext.cs (or any desired name) and define a class that inherits from DbContext. This class will represent the database context and allow interaction with the underlying data. Here's an example of the code:
