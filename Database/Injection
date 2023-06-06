@@ -1,0 +1,13 @@
+using Microsoft.EntityFrameworkCore;
+
+public class MyComponent : ComponentBase
+{
+    private readonly MyDbContext _dbContext;
+
+    public MyComponent(MyDbContext dbContext)
+    {
+        _dbContext = dbContext;
+    }
+
+    // Use the _dbContext instance to interact with the database
+}
