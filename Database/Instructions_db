@@ -19,3 +19,19 @@
 
 7. Verify the Database: After executing the SQL scripts, verify that the database objects (tables, columns, relationships) have been created successfully. You can  
    view the structure of the database in SSMS by expanding the database in the Object Explorer and exploring the different folders (Tables, Views, etc.).
+
+8. Install Entity Framework Core: Entity Framework Core is a popular Object-Relational Mapping (ORM) framework that simplifies database interactions in Blazor. Install the required packages by running the following command in the Package Manager Console:
+      Install-Package Microsoft.EntityFrameworkCore.SqlServer
+      Install-Package Microsoft.EntityFrameworkCore.Design
+      
+9. Create a Database Context Class: In your Blazor project, create a new class file called test_DbContext.cs (or any desired name) and define a class that inherits from DbContext. 
+   This class will represent the database context and allow interaction with the underlying data.
+  
+10. Configure Database Connection: Open the appsettings.json or appsettings.Development.json file in your Blazor project. Add the connection string for the SQL Server database within
+   the "ConnectionStrings" section. The code to be added is in this folder under the name "appsettings.json".
+   
+11. Configure Dependency Injection: Open the Startup.cs file in your Blazor project. Within the ConfigureServices method, register the database context by adding the code found in the "ConfigureServices" file.
+
+12. This code registers the MyDbContext class with the provided connection string, enabling dependency injection of the database context throughout the application.
+     Inject Database Context: In the Blazor components or services where database operations are required, inject the database context using constructor injection. Code to use
+     for the injection can be found in the "Injection" file.
