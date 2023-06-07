@@ -76,3 +76,12 @@ C:\Users\Calfr\Documents\Projects\ULegislate\Blazor\ULeg\obj\Debug\net6.0\refint
 C:\Users\Calfr\Documents\Projects\ULegislate\Blazor\ULeg\obj\Debug\net6.0\ULeg.pdb
 C:\Users\Calfr\Documents\Projects\ULegislate\Blazor\ULeg\obj\Debug\net6.0\ULeg.genruntimeconfig.cache
 C:\Users\Calfr\Documents\Projects\ULegislate\Blazor\ULeg\obj\Debug\net6.0\ref\ULeg.dll
+C:\Users\Calfr\Documents\Projects\ULegislate\Blazor\ULeg\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Calfr\Documents\Projects\ULegislate\Blazor\ULeg\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
+C:\Users\Calfr\Documents\Projects\ULegislate\Blazor\ULeg\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\Calfr\Documents\Projects\ULegislate\Blazor\ULeg\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\Calfr\Documents\Projects\ULegislate\Blazor\ULeg\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Calfr\Documents\Projects\ULegislate\Blazor\ULeg\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Calfr\Documents\Projects\ULegislate\Blazor\ULeg\bin\Debug\net6.0\Microsoft.JSInterop.dll
+C:\Users\Calfr\Documents\Projects\ULegislate\Blazor\ULeg\bin\Debug\net6.0\MudBlazor.dll
+C:\Users\Calfr\Documents\Projects\ULegislate\Blazor\ULeg\bin\Debug\net6.0\System.IO.Pipelines.dll

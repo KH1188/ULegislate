@@ -60,6 +60,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[6.0.15, )"
+            },
+            "MudBlazor": {
+              "target": "Package",
+              "version": "[6.4.0, )"
             }
           },
           "imports": [
